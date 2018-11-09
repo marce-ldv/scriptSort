@@ -53,7 +53,7 @@ function sanitizarArray (arr) {
   })
 
   return arr.map((item) => {
-    return item.replace("\r", "")
+    return item.replace("\r\n", "")
   })
 }
 
